@@ -7,13 +7,51 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/ivAnillo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@android:drawable/ic_menu_compass"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/tvRohan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rohan"
+            app:layout_constraintCircle="@id/ivAnillo"
+            app:layout_constraintCircleRadius="140dp"
+            app:layout_constraintCircleAngle="0"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tvMordor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mordor"
+            app:layout_constraintCircle="@id/ivAnillo"
+            app:layout_constraintCircleRadius="140dp"
+            app:layout_constraintCircleAngle="90"
+            tools:ignore="MissingConstraints" />
+
+
+        <TextView
+            android:id="@+id/tvGondor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gondor"
+            app:layout_constraintCircle="@id/ivAnillo"
+            app:layout_constraintCircleRadius="140dp"
+            app:layout_constraintCircleAngle="270"
+            tools:ignore="MissingConstraints" />
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

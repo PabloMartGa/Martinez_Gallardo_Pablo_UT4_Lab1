@@ -19,8 +19,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <TextView
-            android:id="@+id/tvRohan"
+        <Button
+            android:id="@+id/btnRohan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Rohan"
@@ -29,8 +29,8 @@
             app:layout_constraintCircleAngle="0"
             tools:ignore="MissingConstraints" />
 
-        <TextView
-            android:id="@+id/tvMordor"
+        <Button
+            android:id="@+id/btnMordor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Mordor"
@@ -40,8 +40,8 @@
             tools:ignore="MissingConstraints" />
 
 
-        <TextView
-            android:id="@+id/tvGondor"
+        <Button
+            android:id="@+id/btnGondor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Gondor"

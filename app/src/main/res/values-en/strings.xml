@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Middle-earth World Map</string>
+    <string name="titulo">Middle-earth World Map</string>
+    <string name="descripcion">Select a region on the map to start your journey.</string>
+    <string name="cd_anillo">The One Ring</string>
+    <string name="gondor">Gondor</string>
+    <string name="rohan">Rohan</string>
+    <string name="mordor">Mordor</string>
+    <string name="viaje_gondor">You have travelled to Gondor</string>
+    <string name="viaje_rohan">You have travelled to Rohan</string>
+    <string name="viaje_mordor">You have travelled to Mordor</string>
+</resources>

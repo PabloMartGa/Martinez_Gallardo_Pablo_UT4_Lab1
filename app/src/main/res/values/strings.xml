@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Martinez_Gallardo_Pablo_UT4_Lab1</string>
+    <string name="app_name">Mapamundi de la Tierra Media</string>
+    <string name="titulo">Mapamundi de la Tierra Media</string>
+    <string name="descripcion">Selecciona una región del mapa para comenzar tu viaje.</string>
+    <string name="cd_anillo">El Anillo Único</string>
+    <string name="gondor">Gondor</string>
+    <string name="rohan">Rohan</string>
+    <string name="mordor">Mordor</string>
+    <string name="viaje_gondor">Has viajado a Gondor</string>
+    <string name="viaje_rohan">Has viajado a Rohan</string>
+    <string name="viaje_mordor">Has viajado a Mordor</string>
 </resources>
